@@ -5,15 +5,3 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8081
-
-  spring:
-    datasource:
-      url: jdbc:mysql://localhost:3306/ldap_izzi_empleados?useSSL=false&serverTimezone=UTC&useLegacyDateTimeCode=false
-      username: root
-      password: c3_7f-iqQos3
-      driver-class-name: org.hibernate.dialect.MySQL8Dialect
-
-  jpa:
-    show-sql: true
-  hibernate:
-    ddl-auto: update
