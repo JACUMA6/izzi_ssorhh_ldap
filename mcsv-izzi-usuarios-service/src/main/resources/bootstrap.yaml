@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: mcsv-izzi-usuarios-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
