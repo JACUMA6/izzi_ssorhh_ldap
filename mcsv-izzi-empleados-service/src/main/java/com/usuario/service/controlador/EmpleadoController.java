@@ -42,8 +42,8 @@ public class EmpleadoController {
 		return ResponseEntity.ok(nuevoEmpleado);
 	}
 
-	@PostMapping("/carro/{usuarioId}")
-	public ResponseEntity<Usuarios> guardarCarro(@PathVariable("usuarioId") int usuarioId, @RequestBody Usuarios carro){
+	@PostMapping("/usuario/{usuarioId}")
+	public ResponseEntity<Usuarios> guardarUsers(@PathVariable("usuarioId") int usuarioId, @RequestBody Usuarios carro){
 		Usuarios nuevoCarro = service.saveCarro(usuarioId, carro);
 		return ResponseEntity.ok(nuevoCarro);
 	} 
