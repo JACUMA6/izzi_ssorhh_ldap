@@ -1,16 +1,15 @@
 package com.usuario.service.servicio;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.usuario.service.entidades.Empleados;
 import com.usuario.service.feignclients.EmpleadoFeignClient;
 import com.usuario.service.modelos.Usuarios;
+import com.usuario.service.repositorio.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.usuario.service.repositorio.EmpleadoRepository;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class EmpleadoService {
