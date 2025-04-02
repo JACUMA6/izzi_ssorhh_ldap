@@ -1,4 +1,4 @@
-package mcsv.izzi.usuarios.service.entidades;
+package usuarios.service.entidades;
 
 import javax.persistence.*;
 

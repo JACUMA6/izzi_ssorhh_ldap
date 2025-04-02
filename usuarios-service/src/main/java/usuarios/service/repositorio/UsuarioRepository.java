@@ -1,8 +1,8 @@
-package mcsv.izzi.usuarios.service.repositorio;
+package usuarios.service.repositorio;
 
 import java.util.List;
 
-import mcsv.izzi.usuarios.service.entidades.Usuarios;
+import usuarios.service.entidades.Usuarios;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

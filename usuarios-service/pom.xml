@@ -8,10 +8,10 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>mcsv.izzi.usuarios.service</groupId>
-	<artifactId>mcsv-izzi-usuarios-service</artifactId>
+	<groupId>usuarios.service</groupId>
+	<artifactId>usuarios-service</artifactId>
 	<version>1.0</version>
-	<name>mcsv-izzi-usuarios-service</name>
+	<name>usuarios-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>

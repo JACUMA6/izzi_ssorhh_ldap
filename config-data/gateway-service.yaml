@@ -17,8 +17,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: mcsv-izzi-usuarios-service
-          uri: lb://mcsv-izzi-usuarios-service
+        - id: usuarios-service
+          uri: lb://usuarios-service
           predicates:
             - Path=/users/**
         - id: mcsv-izzi-empleados-service

@@ -1,8 +1,8 @@
-package mcsv.izzi.usuarios.service.controladores;
+package usuarios.service.controladores;
 
 
-import mcsv.izzi.usuarios.service.entidades.Usuarios;
-import mcsv.izzi.usuarios.service.servicios.UsuarioService;
+import usuarios.service.entidades.Usuarios;
+import usuarios.service.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

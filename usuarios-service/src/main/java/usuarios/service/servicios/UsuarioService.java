@@ -1,9 +1,9 @@
-package mcsv.izzi.usuarios.service.servicios;
+package usuarios.service.servicios;
 
 import java.util.List;
 
-import mcsv.izzi.usuarios.service.entidades.Usuarios;
-import mcsv.izzi.usuarios.service.repositorio.UsuarioRepository;
+import usuarios.service.entidades.Usuarios;
+import usuarios.service.repositorio.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
