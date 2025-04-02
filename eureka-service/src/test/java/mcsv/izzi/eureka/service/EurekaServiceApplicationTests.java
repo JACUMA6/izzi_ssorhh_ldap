@@ -1,4 +1,4 @@
-package com.tutorial.eurekaservice;
+package mcsv.izzi.eureka.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
