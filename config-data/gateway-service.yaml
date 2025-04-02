@@ -20,8 +20,8 @@ spring:
         - id: mcsv-izzi-usuarios-service
           uri: lb://mcsv-izzi-usuarios-service
           predicates:
-            - Path=/user/**
+            - Path=/users/**
         - id: mcsv-izzi-empleados-service
           uri: lb://mcsv-izzi-empleados-service
           predicates:
-            - Path=/empleados/**
+            - Path=/empleado/**
