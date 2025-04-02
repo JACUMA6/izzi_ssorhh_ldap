@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "mcsv-izzi-usuarios-service")
+@FeignClient(name = "usuarios-service")
 @RequestMapping("/users")
 public interface EmpleadoFeignClient {
 
@@ -14,5 +14,5 @@ public interface EmpleadoFeignClient {
 	public Usuarios save(@RequestBody Usuarios users);
 	
 	@GetMapping("/usuario/{usuarioId}")
-	public List<Usuarios> getCarros(@PathVariable("usuarioId") int usuarioId);
+	public List<Usuarios> getUsuarios(@PathVariable("usuarioId") int usuarioId);
 }

@@ -50,7 +50,7 @@ public class EmpleadoService {
 		}
 		
 		resultado.put("Empleados",empleados);
-		List<Usuarios> users = empleadoFeignClient.getCarros(usuarioId);
+		List<Usuarios> users = empleadoFeignClient.getUsuarios(usuarioId);
 		if(users.isEmpty()) {
 			resultado.put("Usuarios", "El empleado no tiene usuarios relacionados");
 		}
