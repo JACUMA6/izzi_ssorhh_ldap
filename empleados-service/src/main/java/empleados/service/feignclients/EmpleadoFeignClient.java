@@ -1,6 +1,6 @@
-package com.usuario.service.feignclients;
+package empleados.service.feignclients;
 
-import com.usuario.service.modelos.Usuarios;
+import empleados.service.modelos.Usuarios;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

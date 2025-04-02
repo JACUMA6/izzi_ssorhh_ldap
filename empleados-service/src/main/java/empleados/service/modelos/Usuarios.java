@@ -1,4 +1,4 @@
-package com.usuario.service.modelos;
+package empleados.service.modelos;
 
 public class Usuarios {
 

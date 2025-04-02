@@ -1,6 +1,6 @@
-package com.usuario.service.repositorio;
+package empleados.service.repositorio;
 
-import com.usuario.service.entidades.Empleados;
+import empleados.service.entidades.Empleados;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

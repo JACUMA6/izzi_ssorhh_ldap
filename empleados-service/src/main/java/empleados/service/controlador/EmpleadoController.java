@@ -1,8 +1,8 @@
-package com.usuario.service.controlador;
+package empleados.service.controlador;
 
-import com.usuario.service.entidades.Empleados;
-import com.usuario.service.modelos.Usuarios;
-import com.usuario.service.servicio.EmpleadoService;
+import empleados.service.entidades.Empleados;
+import empleados.service.modelos.Usuarios;
+import empleados.service.servicio.EmpleadoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

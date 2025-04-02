@@ -1,4 +1,4 @@
-package com.usuario.service.entidades;
+package empleados.service.entidades;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

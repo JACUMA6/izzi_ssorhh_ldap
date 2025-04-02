@@ -1,9 +1,9 @@
-package com.usuario.service.servicio;
+package empleados.service.servicio;
 
-import com.usuario.service.entidades.Empleados;
-import com.usuario.service.feignclients.EmpleadoFeignClient;
-import com.usuario.service.modelos.Usuarios;
-import com.usuario.service.repositorio.EmpleadoRepository;
+import empleados.service.entidades.Empleados;
+import empleados.service.feignclients.EmpleadoFeignClient;
+import empleados.service.modelos.Usuarios;
+import empleados.service.repositorio.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
