@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mcsv-izzi-empleados-service
+    name: empleados-service
   cloud:
     config:
       enabled: true
