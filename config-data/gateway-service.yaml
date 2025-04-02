@@ -21,7 +21,7 @@ spring:
           uri: lb://usuarios-service
           predicates:
             - Path=/users/**
-        - id: mcsv-izzi-empleados-service
+        - id: empleados-service
           uri: lb://empleados-service
           predicates:
             - Path=/empleado/**
