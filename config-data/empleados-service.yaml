@@ -12,6 +12,27 @@ eureka:
       #hostname: localhost
       instance-id: $spring.application.name}:${}spring.application.instance_id:${random.value}}
 
+resilience4j.circuitbreaker:
+  instances:
+    usuariosCB:
+      registerHealthIndicator: true
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowType: TIME_BASED
+      minimumNumberOfCalls: 4
+      waitDurationInOpenState: 5s
+      failureRateThreshold: 50
+      eventConsumerBufferSize: 10
+    allCB:
+      registerHealthIndicator: true
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowType: TIME_BASED
+      minimumNumberOfCalls: 4
+      waitDurationInOpenState: 5s
+      failureRateThreshold: 50
+      eventConsumerBufferSize: 10
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ldap_izzi_empleados?useSSL=false&serverTimezone=UTC&useLegacyDateTimeCode=false
