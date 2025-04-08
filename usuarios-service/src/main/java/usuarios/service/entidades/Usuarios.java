@@ -18,6 +18,10 @@ public class Usuarios {
 	private String tpoUsuario;
 	private int usuarioId;
 
+	public Usuarios() {
+		super();
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -80,10 +84,6 @@ public class Usuarios {
 
 	public void setUsuarioId(int usuarioId) {
 		this.usuarioId = usuarioId;
-	}
-
-	public Usuarios() {
-		super();
 	}
 
 }
